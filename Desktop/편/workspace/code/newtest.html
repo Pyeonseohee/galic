@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="newtestcss.css">
+  <title>Our test page</title>
+</head>
+
+<body>
+  <header> 우리의 웹페이지
+    <button onclick = '_close()'>
+      dsds
+    </button></header>
+  <div id = 'main'>
+    <div id = "sidebar">
+    궁시렁 궁시ㅓㅇ </div>
+    <div id = 'container'>
+        <div class = 'state' id = 'Texas'>
+          <button onclick = "_open()" class = 'but'>
+            <div class = "city"  id="a"></div>
+          </button>
+          <button onclick = "_open()" class = 'but'>
+            <div class = "city"  id="b"></div><br>
+          </button>
+          <button onclick = "_open()" class = 'but'>
+            <div class = "city"  id="e"></div>
+          </button>
+          <button onclick = "_open()" class = 'but'>
+            <div class = "city"  id="f"></div>
+          </button>
+        </div>
+
+      <div class = 'state', id = 'Newtyork'>
+        <div class = "city"  id="c"></div>
+        <div class = "city"  id="d"></div><br>
+        <div class = "city"  id="g"></div>
+        <div class = "city"  id="h"></div>
+      </div><br>
+
+      <div class = 'state', id = 'Osaka'>
+        <div class = "city"  id="i"></div>
+        <div class = "city"  id="j"></div><br>
+        <div class = "city"  id="m"></div>
+        <div class = "city"  id="n"></div>
+      </div>
+
+      <div class = 'state', id = 'Seoul'>
+        <div class = "city"  id="k"></div>
+        <div class = "city"  id="l"></div><br>
+        <div class = "city"  id="o"></div>
+        <div class = "city"  id="p"></div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
+
+<script>
+  function _open(){
+    document.getElementById("sidebar").style.display = 'block';
+  }
+
+  function _close(){
+    document.getElementById("sidebar").style.display = 'none';
+  }
+
+
+</script>
+
+  <footer> 쏼라쏼라 </footer>
