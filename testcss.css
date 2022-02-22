@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+header{
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 24px;
+  color: #545454;
+}
+
+#container{
+  width: 400px;
+}
+
+h1{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#landsidebar{
+  width: 30%;
+}
+
+.land{
+  margin-left: auto;
+  margin-right: auto;
+}
+.city {
+  border: 3px solid #DCDCDC;
+  background-color: #A9A9A9;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-clip: padding-box;
+}
+
+.city:hover {
+  background-color: #F5F5F5;
+}
+
+.wing {
+  border 2px solid black;
+  visibility: hidden;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.Hidden{
+  visibility: hidden;
+}
+
+.Visible{
+  visibility: visible;
+}

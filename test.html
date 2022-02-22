@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="testcss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type = "module" src = './database.js'></script> 
+  <title>Our test page</title>
+</head>
+
+<body>
+  <header> 우리의 웹페이지</header>
+  <div id = 'main'>
+    <div id = 'sidebar'>
+    궁시렁 궁시ㅓㅇ </div>
+    <div id = 'container'>     
+      <div class = "city" class = "Texas" id="a"></div>
+
+
+      <div class = "city" class = "Texas" id="b"></div>
+
+
+      <div class = "city" class = "Newyork" id="c"></div>
+
+
+      <div class = "city" class = "Newyork" id="d"></div>
+
+
+      <div class = "city" class = "Texas" id="e"></div>
+
+
+      <div class = "city" class = "Texas" id="f"></div>
+
+
+      <div class = "city" class = "Newyork" id="g"></div>
+
+
+      <div class = "city" class = "Newyork" id="h"></div>
+
+
+      <div class = "city" class = "Osaka" id="i"></div>
+
+
+       <div class = "city" class = "Osaka" id="j"></div>
+
+
+      <div class = "city" class = "Seoul" id="k"></div>
+
+
+      <div class = "city" class = "Seoul" id="l"></div>
+
+
+      <div class = "city" class = "Osaka" id="m"></div>
+
+
+      <div class = "city" class = "Osaka" id="n"></div>
+
+
+      <div class = "city" class = "Seoul" id="o"></div>
+
+
+      <div class = "city" class = "Seoul" id="p"></div>
+    </div>
+  </div>
+
+  <footer> 쏼라쏼라 </footer>
+  <script>
+//side
+    function sidebar_open() {
+      document.getElementById("landsidebar").style.display = 'blobk';
+    }
+
+    function siderbar_close(){
+      document.getElementById("landsidebar").style.display = "none";
+    }
+
+    $(".city").click(function() {
+      var click_id = $(this).attr('id');
+      alert(click_id + "를 결제하겠습니까?");
+    });
+  </script>
+</body>
+</html>
